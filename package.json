@@ -1,0 +1,28 @@
+{
+  "name": "sakshi-parashar-portfolio",
+  "version": "1.0.0",
+  "description": "Sakshi Parashar's UX Designer Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "echo 'Ready for deployment'"
+  },
+  "keywords": [
+    "portfolio",
+    "ux-designer",
+    "ui-designer",
+    "design-systems",
+    "user-research"
+  ],
+  "author": "Sakshi Parashar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakshiparashar/portfolio.git"
+  },
+  "homepage": "https://sakshiparashar.github.io/portfolio",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
