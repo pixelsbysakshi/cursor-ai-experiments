@@ -1,0 +1,40 @@
+{
+  "name": "pmi-loop-website",
+  "version": "1.0.0",
+  "description": "A modern PMI website built with Loop's design language - clean, minimalist, and user-friendly",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "lint:css": "echo 'CSS linting not configured'",
+    "lint:js": "echo 'JS linting not configured'",
+    "build": "echo 'Build process not configured'"
+  },
+  "keywords": [
+    "pmi",
+    "project-management",
+    "loop-design",
+    "responsive",
+    "modern-web",
+    "css-grid",
+    "accessibility"
+  ],
+  "author": "PMI Loop Website Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/pmi-loop-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/example/pmi-loop-website/issues"
+  },
+  "homepage": "https://github.com/example/pmi-loop-website#readme",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
